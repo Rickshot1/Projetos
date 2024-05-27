@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.corpo_dados{
+    background-image: url(175889.jpg);
+}
+.cabecalho{
+    position: fixed;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.info{
+    position: fixed;
+    right: 40px;
+    top:8px;
+}
+.botao_cliente{
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #00000008;
+    color:white;
+    user-select: none;
+    transition: 2s; 
+}
+.kit{
+    display: none;
+    position:absolute;
+    top: 40px;
+    right: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 70px;
+    background-color: #00000008;
+    transition: background 2s;
+    transition: 2s;
+}
+.kit:hover{
+    background-color: aqua;
+    font-size: 30px;
+}
+.a{
+    text-decoration: none;
+}
+
+.a:hover{
+    color:black;
+}
+.a:visited{
+    color:black;
+}
+.a:active{
+    color:black;
+}
+
+.botao_cliente:hover{
+    color:red;
+    font-size: 20px;
+}
+.hzin{
+    text-align: center;
+}
+.pezinho{
+    position: absolute;
+    top:70%;
+    left: 30%;
+    font-size: 25px;
+}
+.elefantinho{
+    width: 300px;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+}
+.div_tabela{
+    position: absolute;
+    
+}
+

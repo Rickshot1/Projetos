@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.corpo2{
+    font-family: "login" ;
+    background-image: url(175889.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.div_login{
+    background-color: #00000009;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    padding: 90px;
+    border-radius: 20px;
+    color: aliceblue;
+    border-style: double;
+    border-style:medium;
+    border-left-color: #00FFFF;
+    border-bottom-color: #00FFFF ;
+    border-top-color:#00FFFF;
+    border-right-color:#00FFFF;
+}
+.id_login{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: thin ;
+}
+.senha_login{
+    outline:none;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: thin;
+}
+.botao_confirmar{
+    background-color: rgb(245, 114, 7);
+    color:black;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    width: 100%;
+    padding: 10px;
+    font-family: "login";
+    transition: background 2s;
+    transition: 2s;
+    border: solid 2px black;
+    font-family: "roboto";
+}
+.botao_cadastrase{
+    background-color:rgb(245, 114, 7) ;
+    color:black;
+    cursor: pointer;
+    border:none;
+    border-radius: 15px;
+    font-size: 30px;
+    width: 100%;
+    padding:10px;
+    font-family: "login";
+    transition: background 2s;
+    transition: 2s;
+    border: solid 2px black;
+    font-family: "roboto";
+}
+.botao_cadastrase:hover{
+    font-size: 40px;
+    background-color: #e20808;
+}
+.botao_confirmar:hover{
+    font-size: 40px;
+    background-color: #e20808;
+}
+.h{
+    text-align: center;
+    color:white;
+    position: absolute;
+    top:25px;
+    right:200px;
+}
+.volta{
+    color: black; 
+    border: none; 
+    border-radius: 15px; 
+    cursor: pointer; 
+    width: 50%; 
+    padding: 10px; 
+    font-size: 30px;  
+    background-color: rgb(245, 114, 7);
+    transition: background 2s;
+    transition: 2s;
+    border: solid 2px black;
+    font-family: "roboto";
+}
+
+.volta:hover{
+    font-size: 40px;
+    background-color: #e20808;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url("Roboto-Black.ttf") format('truetype');
+}

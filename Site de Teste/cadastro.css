@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.cabeca{
+    text-align: center;
+}
+.corpinho{
+    background-image: url(175889.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tabela{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#00000008;
+    border-radius: 15px;
+    border-style: double;
+    border-top-color: aqua;
+    border-bottom-color: aqua;
+    border-left-color: aqua;
+    border-right-color: aqua;
+    border-style: thin;
+    padding: 15px;
+    width: 40%;
+    color: black;
+}
+.botao_voltar{
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 50%;
+    padding: 10px;
+}
+.botao_cadastrar{
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 80%;
+    padding: 10px;
+
+}
+.forma{
+    border: solid aqua 2px;
+}

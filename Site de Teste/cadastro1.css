@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.cabeca{
+    text-align: center;
+}
+.corpinho{
+    background-image: url(175889.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.legenda2{
+    border: solid aqua 2px;
+    text-align: center;
+    width: 40%;
+    font-size: 30px;
+    border-radius: 15px;
+}
+.tabela{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#00000008;
+    border-radius: 15px;
+    border-style: double;
+    border-top-color: aqua;
+    border-bottom-color: aqua;
+    border-left-color: aqua;
+    border-right-color: aqua;
+    border-style: thin;
+    padding: 15px;
+    width: 40%;
+    color: black;
+    padding-bottom: 12px;
+}
+.botao_voltar{
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 50%;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(245, 114, 7);
+    transition: background 2s;
+    transition: 2s;
+}
+.botao_voltar:hover{
+    font-size: 40px;
+    background-color: #e20808;
+}
+.botao_cadastrar{
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 80%;
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 30px;
+    background-color: rgb(245, 114, 7);
+    transition: background 2s;
+    transition: 2s;
+}
+.botao_cadastrar:hover{
+    font-size: 40px;
+    background-color: #e20808;
+}
+.forma{
+    border: solid aqua 2px;
+    padding-bottom: 12px;
+}
+
+.importar{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: solid white 1px;
+    color:black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 70%;
+    display: block;
+}
+.importar_caixa{
+    position: relative;
+}
+.label1{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+}
+.importar:focus ~ .label1,
+.importar:valid ~ .label1{
+    top: -14px;
+    font-size: 12px;
+}
+.label7{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+}
+.importar:focus ~ .label7,
+.importar:valid ~ .label7{
+    top: -14px;
+    font-size: 12px;
+}
+.label2{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+}
+.importar:focus ~.label2,
+.importar:valid ~.label2{
+    top:-14px;
+    font-size: 12px;
+}
+.label3{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+}
+.importar:focus ~.label3,
+.importar:valid ~.label3{
+    top:-14px;
+    font-size: 12px;
+}
+.label4{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+}
+.importar:focus ~.label4,
+.importar:valid ~.label4{
+    top:-14px;
+    font-size: 12px;
+}
+.label5{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+}
+.importar:focus ~.label5,
+.importar:valid ~.label5{
+    top:-14px;
+    font-size: 12px;
+}
+.label6{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+}
+.importar:focus ~.label6,
+.importar:valid ~.label6{
+    top:-14px;
+    font-size: 12px;
+}
+.label8{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+}
+.importar:focus ~.label8,
+.importar:valid ~.label8{
+    top:-14px;
+    font-size: 12px;
+}
+.label9{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+}
+.importar:focus ~.label9,
+.importar:valid ~.label9{
+    top:-14px;
+    font-size: 12px;
+}
+.label10{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+}
+.importar:focus ~.label10,
+.importar:valid ~.label10{
+    top:-14px;
+    font-size: 12px;
+}
+.data{
+    font-size: 20px;
+}
+.pezim{
+    font-size: 20px;
+}
+.feminino{
+    font-size: 20px;
+}
+.masculino{
+    font-size: 20px;
+}
+.outros{
+    font-size: 20px;
+}
+.datinha{
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #00000008;
+    width: 30%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}

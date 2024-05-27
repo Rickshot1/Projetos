@@ -1,0 +1,186 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.formulario{
+    border-radius: 15%;
+    width: 100%;
+}
+.fundo{
+    background: linear-gradient(to right, #8C00B8 15%, #aa00ff);
+}
+.cabecalho{
+    background: black;
+    text-align: center;
+    color: white;
+    font-family: "titulo";
+}
+.tabela{
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.legenda{
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 25%;
+    width: 40%;
+    height: 25%;
+    background: #00000090;
+    color: white;
+}
+.forma{
+    border: solid 2px black;
+    padding: 10%;
+    border-radius: 15%;
+    width: 100%;
+    padding-bottom: 10%;
+    background: #00000090;
+}
+.div_importar{
+    position: relative;
+}
+.importar{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px white;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 70%;
+    display: block;
+}
+.label1{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+    color: white;
+}
+.importar:focus ~ .label1,
+.importar:valid ~ .label1{
+    top: -15px;
+    font-size: 12px;
+}
+.label2{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+    color: white;
+}
+.importar:focus ~ .label2,
+.importar:valid ~ .label2{
+    top: -15px;
+    font-size: 12px;
+}
+.label3{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+    color: white;
+}
+.importar:focus ~ .label3,
+.importar:valid ~ .label3{
+    top: -15px;
+    font-size: 12px;
+}
+.label4{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+    color: white;
+}
+.importar:focus ~ .label4,
+.importar:valid ~ .label4{
+    top: -15px;
+    font-size: 12px;
+}
+.label5{
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: 1.3s;
+    color: white;
+}
+.importar:focus ~ .label5,
+.importar:valid ~ .label5{
+    top: -15px;
+    font-size: 12px;
+}
+.data{
+    font-size: 20px;
+    color: white;
+}
+.genero{
+    font-size: 20px;
+    color: white;
+}
+.masculino{
+    font-size: 20px;
+    color: white;
+}
+.feminino{
+    font-size: 20px;
+    color: white;
+}
+.outros{
+    font-size: 20px;
+    color: white;
+}
+.confirmar{
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15%;
+    border: none;
+    height: 10%;
+    font-size: 20px;
+    width: 15%;
+    left: 10%;
+    transition: background 1.4s;
+    transition: 1s;
+}
+.confirmar:hover{
+    background: red;
+    height: 12%;
+    width: 17%;
+    font-size: 22px;
+    left: 9%;
+}
+.voltar{
+    top: 81.8%;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 15%;
+    border: none;
+    height: 5.5%;
+    font-size: 20px;
+    width: 5%;
+    left: 60%; 
+    transition: background 1.4s;
+    transition: 1s;    
+}
+.voltar:hover{
+    background: red;
+    height: 6.5%;
+    width: 6%;
+    font-size: 22px;
+    left: 59.5%;
+}
+@font-face {
+    font-family: 'titulo';
+    src: url('titulo.otf') format('opentype');
+}
